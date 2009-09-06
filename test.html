@@ -1,0 +1,91 @@
+<html>
+<head>
+	<script src="jquery-1.3.2.min.js"></script>
+	<script src="jquery.form.js"></script>
+	<script src="jquery-ui-1.7.2.custom.min.js"></script>
+	<script src="jquery.cardwall.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('#cards').cardwall('status',{
+				sections:['TODO','WIP','DONE']
+			});
+		});
+	</script>
+	<link type="text/css" href="cardwall.css" rel="stylesheet">
+</head>
+<body>
+	<table id='cards'>
+		<thead>
+			<tr>
+				<th>Task</th>
+				<th>Description</th>
+				<th>priority</th>
+				<th>estimate</th>
+				<th>status</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+			</tr>
+			<tr>
+				<td>More Modal</td>
+				<td>Throw up a modal when more... link is kicked with full details. Take the optional items through options in array or selector</td>
+				<td>3</td>
+				<td>2</td>
+				<td>TODO</td>
+			</tr>
+			<tr>
+				<td>Custom Sections</td>
+				<td>Take list of sections as a dict through options</td>
+				<td>1</td>
+				<td>1</td>
+				<td>DONE</td>
+			</tr>
+			<tr>
+				<td>sort events</td>
+				<td>Add event to update priority on sorting call back </td>
+				<td>2</td>
+				<td>1</td>
+				<td>TODO</td>
+			</tr>
+			<tr>
+				<td>Status update</td>
+				<td>create event call back for status change on drag across sections</td>
+				<td>1</td>
+				<td>2</td>
+				<td>WIP</td>
+			</tr>
+			<tr>
+				<td>restrict status changes</td>
+				<td>restrict the draggability to only some draggables</td>
+				<td>4</td>
+				<td>2</td>
+				<td>TODO</td>
+			</tr>
+			<tr>
+				<td>New cards</td>
+				<td>Create new card and add it to a specified section.</td>
+				<td>3</td>
+				<td>3</td>
+				<td>WIP</td>
+			</tr>
+			<tr>
+				<td>Delete/Archive cards</td>
+				<td>Make a droppable section to remove a card from the view.</td>
+				<td>4</td>
+				<td>2</td>
+				<td>TODO</td>
+			</tr>
+			<tr>
+				<td>Better Graphics</td>
+				<td>Add CSS styles for a better default look</td>
+				<td>5</td>
+				<td>4</td>
+				<td>WIP</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+</body>
+</html>

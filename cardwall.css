@@ -1,0 +1,66 @@
+.section {
+  width    : 400px;
+  float    : left;
+  height  : 100%;
+  background  : #9e9e9e;
+  margin  : 5px;
+}
+
+.card {
+  width    : 190px;
+  float    : left;
+  margin  : 2px;
+  padding  : 2px;
+  border  : solid 1px;
+}
+
+.more {
+  text-align:right;
+}
+
+.status {
+  display: none;
+}
+
+dl {
+  margin: 0px;
+}
+
+dt {
+  float: left;
+  clear: left;
+}
+
+dd {
+  float: right;
+  clear: right;
+}
+
+div.more {
+  clear: both;
+}
+
+dt.Task {
+  display: none;  
+}
+
+dd.Task {
+  float: left;
+  clear: both;
+  margin: 0px;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+dt.description {
+  display: none;
+}
+
+dd.description {
+  float: left;
+  clear: both;
+  height: 40px;		/* TODO: Look for flexible way to define 2 line heights */
+  margin: 2px 5px;
+  overflow: hidden;
+}
