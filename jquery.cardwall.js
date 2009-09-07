@@ -1,3 +1,16 @@
+/*
+* jQuery CardWall Plugin
+* version: 0.7 (September 07, 2009)
+* @requires jQuery v1.3.2 or later
+* @requires jQuery-UI v1.7.2 or later
+* @requires jQuery Form plugin
+*
+* Examples and documentation at: http://loonyb.in/
+* Dual licensed under the MIT and GPL licenses:
+* http://www.opensource.org/licenses/mit-license.php
+* http://www.gnu.org/licenses/gpl.html
+*/
+
 jQuery.fn.cardwall = function (sectionHeading, options) {
 	return this.each( function() {
 		$table = $(this);
